@@ -1,0 +1,23 @@
+/* Style for the button container */
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style for the button */
+.myButton {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 32px; /* Vertical and horizontal padding */
+  text-align: center; /* Center text inside the button */
+  font-size: 16px; /* Text size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Change button color on hover */
+.myButton:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
